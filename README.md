@@ -1,8 +1,3 @@
-html:before {
-  content: "";
-  display: block;
-  height: 0;
-}
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,3 +51,10 @@ html:before {
  </form>
 </body>
 </html>
+<css>
+html:before {
+  content: "";
+  display: block;
+  height: 0;
+}
+</css>
