@@ -51,10 +51,3 @@
  </form>
 </body>
 </html>
-<css>
-html:before {
-  content: "";
-  display: block;
-  height: 0;
-}
-</css>
