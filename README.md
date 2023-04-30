@@ -18,7 +18,7 @@
   <label for="address">Адрес:</label>
   <textarea id="address" name="address" required></textarea>
   <br>
-  <input type="submit" value="Send form">
+  <input type="submit" value="Отправить">
  </form>
 </body>
 </html>
