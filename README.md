@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Delivery form</title>
+ <title>Форма для доставки</title>
 </head>
 <body>
- <h1>Delivery</h1>
+ <h1>Доставка</h1>
  <form action="submit-form.php" method="post">
-  <label for="first_name">First Name:</label>
+  <label for="first_name">Имя:</label>
   <input type="text" id="first_name" name="first_name" required>
   <br>
-  <label for="last_name">Last Name:</label>
+  <label for="last_name">Фамилия:</label>
   <input type="text" id="last_name" name="last_name" required>
   <br>
-  <label for="phone">Phone:</label>
+  <label for="phone">Телефон:</label>
   <input type="tel" id="phone" name="phone" required>
   <br>
-  <label for="address">Addres:</label>
+  <label for="address">Адрес:</label>
   <textarea id="address" name="address" required></textarea>
   <br>
   <input type="submit" value="Send form">
