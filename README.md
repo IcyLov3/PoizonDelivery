@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Форма для доставки</title>
+ <title>Моя форма</title>
+ <style>
+  input[type="text"], input[type="email"], input[type="tel"], textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-bottom: 16px;
+  }
+
+  label {
+   font-weight: bold;
+   display: block;
+   margin-bottom: 8px;
+  }
+
+  button[type="submit"] {
+   background-color: #4CAF50;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+   background-color: #45a049;
+  }
+ </style>
 </head>
 <body>
- <h1>Доставка</h1>
+ <h1>Моя форма</h1>
  <form action="submit-form.php" method="post">
   <label for="first_name">Имя:</label>
   <input type="text" id="first_name" name="first_name" required>
@@ -18,7 +47,7 @@
   <label for="address">Адрес:</label>
   <textarea id="address" name="address" required></textarea>
   <br>
-  <input type="submit" value="Отправить">
+  <button type="submit">Отправить</button>
  </form>
 </body>
 </html>
