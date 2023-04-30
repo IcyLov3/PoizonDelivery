@@ -7,7 +7,6 @@
     content: "";
     display: block;
     height: 0;
-  }
   input[type="text"], input[type="email"], input[type="tel"], textarea {
    width: 100%;
    padding: 12px;
