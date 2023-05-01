@@ -1,5 +1,31 @@
-html:before {
-  content: "";
-  display: block;
-  height: 0;
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-bottom: 16px;
+}
+
+label {
+   font-weight: bold;
+   display: block;
+   margin-bottom: 8px;
+}
+
+button[type="submit"] {
+   background-color: #4CAF50;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+button[type="submit"]:hover {
+   background-color: #45a049;
+}
+
+.hidden {
+   display: none;
 }
