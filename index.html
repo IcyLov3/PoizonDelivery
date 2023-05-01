@@ -5,22 +5,25 @@
  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <h1>Моя форма</h1>
- <form action="submit-form.php" method="post" onsubmit="showMessage()">
-  <label for="first_name">Имя:</label>
-  <input type="text" id="first_name" name="first_name" required>
-  <br>
-  <label for="last_name">Фамилия:</label>
-  <input type="text" id="last_name" name="last_name" required>
-  <br>
-  <label for="phone">Телефон:</label>
-  <input type="tel" id="phone" name="phone" required>
-  <br>
-  <label for="address">Адрес:</label>
-  <textarea id="address" name="address" required></textarea>
-  <br>
-  <input type="submit" value="Submit">
- </form>
+ <h1>Форма для доставки</h1>
+ <form name="contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact">
+  <p>
+    <label>Имя: <input type="text" name="firstName" required></label>
+  </p>
+  <p>
+    <label>Фамилия: <input type="text" name="lastName" required></label>
+  </p>
+  <p>
+    <label>Номер телефона: <input type="tel" name="phone" required></label>
+  </p>
+  <p>
+    <label>Адрес: <textarea name="address" required></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Отправить</button>
+  </p>
+</form>
  <div id="success-message" class="hidden">
   <p>Ваша форма успешно отправлена!</p>
  </div>
